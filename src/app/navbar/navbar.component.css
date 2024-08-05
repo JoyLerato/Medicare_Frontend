@@ -1,0 +1,8 @@
+.custom-navbar {
+    position: relative;
+    z-index: 1;
+    background-color: white; /* Ensures the navbar has a background color */
+    margin-bottom: 20px; /* Adjust this value as needed for proper spacing */
+    
+  }
+  

@@ -1,0 +1,37 @@
+.pageBox {
+    padding: 50px;
+    margin: 50px 0;
+    background-color: #fff;
+    text-align: center;
+    box-sizing: border-box; /* Ensure padding and margins are handled correctly */
+}
+
+.pageContent {
+    padding: 10px 40px;
+    box-sizing: border-box; /* Ensure padding is included in the element's total width */
+}
+
+.pageContent img {
+    width: 50%;
+    max-width: 100%; /* Prevent overflow */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.pageContent h4 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 600px) {
+    .pageBox {
+        padding: 0 10px;
+    }
+    
+    .pageContent {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    .pageContent img {
+        width: 100%; /* Make image full width on smaller screens */
+    }
+}
