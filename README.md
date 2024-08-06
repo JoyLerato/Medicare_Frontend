@@ -1,4 +1,6 @@
-# Medicare
+# Medicare E-Healthcare Web Application - Frontend
+Overview
+The Medicare E-Healthcare Web Application is a dynamic and responsive platform designed for the online ordering of medicines and healthcare essentials. This repository contains the frontend code for the application, built using Angular, Bootstrap, HTML/CSS, and JavaScript.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.10.
 
